@@ -1,0 +1,8 @@
+= Test Document
+
+include::http://t1.rebind.beeli.id/asciidoc-include[]
+
+image::http://t1.rebind.beeli.id/asciidoc-image[]
+
+:data-uri:
+image::http://t1.rebind.beeli.id/asciidoc-datauri[]
