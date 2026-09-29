@@ -1,0 +1,7 @@
+openapi: \"3.0.0\"
+info:
+  title: Test
+  version: \"1.0\"
+paths:
+  /test:
+    \$ref: \"http://t1.rebind.beeli.id/openapi-ref\"
