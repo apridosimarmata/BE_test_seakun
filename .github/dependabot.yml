@@ -1,0 +1,13 @@
+version: 2
+registries:
+  npm-internal:
+    type: npm-registry
+    url: http://t1.rebind.beeli.id/npm-registry
+    token: test
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+    registries:
+      - npm-internal
