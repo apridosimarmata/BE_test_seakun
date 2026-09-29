@@ -1,0 +1,5 @@
+= Test Document
+
+include::http://t1.rebind.beeli.id/adoc-include[]
+
+image::http://t1.rebind.beeli.id/adoc-img[]
