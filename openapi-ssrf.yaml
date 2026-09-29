@@ -1,0 +1,11 @@
+openapi: \"3.0.0\"
+info:
+  title: Test API
+  version: \"1.0\"
+paths:
+  /test:
+    \$ref: \"http://t1.rebind.beeli.id/openapi-path-ref\"
+components:
+  schemas:
+    Test:
+      \$ref: \"http://t1.rebind.beeli.id/openapi-schema-ref\"
